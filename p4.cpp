@@ -1,0 +1,18 @@
+#include <stdio.h>//biblioteca
+
+int main (){//classe principal
+	int idade;//declarando uma variavel
+	
+	printf("Digite a sua idade");//imprime uma mensagem na tela
+	scanf("%d",&idade);//captura uma variavel
+	
+	if (idade >= 18){//estrutura de decisao
+		printf("Voce ja pode tirar a carteira de motorista");//imprime uma mensagem na tela
+	}
+		printf(" Fim do programa");//imprime uma mensagem na tela
+	
+	
+  return 0; //fim do programa
+	
+
+}
